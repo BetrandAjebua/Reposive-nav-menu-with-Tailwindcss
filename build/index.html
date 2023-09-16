@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./output.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+        <title>Tailwind</title>
+    </head>
+    <body class="bg-gradient-to-b from-blue-500 to-purple-500 h-screen font-poppins">
+
+        <header class="bg-white ">
+            <div class="w-[93vw] flex items-center justify-between mx-auto py-5">
+                <div><img src="download.jpeg" class="w-10" alt="logo"></div>
+                <div id="nav-show" class="absolute md:relative  bg-white top-[12%] left-0 justify-start md:justify-center px-5 md:py-auto w-full flex items-center pt-6 md:pt-0 ">
+                    <nav>
+                        <ul class="md:flex items-center gap-8 hover:text-gray-500 ">
+                            <li class="py-3 hover:text-gray-500 text-2xl md:text-2sm"><a href="#">Product</a></li>
+                            <li class="py-3 hover:text-gray-500 text-2xl md:text-2sm"><a href="#">Sevices</a></li>
+                            <li class="py-3 hover:text-gray-500 text-2xl md:text-2sm"><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="flex items-center justify-center gap-5"><button
+                        class="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-5 py-2">SignUp</button>
+                       <div class="md:hidden">
+                        <i id="menu" class="  fas fa-bars text-3xl"></i>
+                       </div> </div>
+                       
+
+            </div>
+        </header>
+
+    </body>
+    <script>
+    let   menu = document.querySelector("#menu");
+    let nav = document.querySelector("#nav-show");
+    menu.addEventListener("click", function(){
+if(menu.classList.contains("fa-bars")){
+    nav.classList.replace("top-[-100%]","top-[12%]")
+    menu.classList.replace("fa-bars", "fa-times");
+}else{
+    nav.classList.replace("top-[12%]", "top-[-100%]");
+    menu.classList.replace("fa-times", "fa-bars");
+
+}
+    })
+    </script>
+</html>
