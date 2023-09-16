@@ -550,6 +550,50 @@ video {
   top: -100%;
 }
 
+.top-\[11\%\] {
+  top: 11%;
+}
+
+.top-\[10\%\] {
+  top: 10%;
+}
+
+.top-\[9\%\] {
+  top: 9%;
+}
+
+.top-\[7\%\] {
+  top: 7%;
+}
+
+.top-\[4v\] {
+  top: 4v;
+}
+
+.top-\[4vh\] {
+  top: 4vh;
+}
+
+.top-\[6vh\] {
+  top: 6vh;
+}
+
+.top-\[5vh\] {
+  top: 5vh;
+}
+
+.top-\[9\] {
+  top: 9;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -561,6 +605,34 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
+}
+
+.h-\[16vh\] {
+  height: 16vh;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[6vh\] {
+  height: 6vh;
+}
+
+.h-\[8vh\] {
+  height: 8vh;
+}
+
+.h-\[14vh\] {
+  height: 14vh;
+}
+
+.h-\[30vh\] {
+  height: 30vh;
 }
 
 .w-10 {
@@ -647,6 +719,21 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -693,8 +780,95 @@ video {
     display: none;
   }
 
+  .md\:h-\[20\] {
+    height: 20;
+  }
+
+  .md\:h-\[20vh\] {
+    height: 20vh;
+  }
+
+  .md\:h-auto {
+    height: auto;
+  }
+
+  .md\:h-\[\] {
+    height: ;
+  }
+
+  .md\:h-\[10vh\] {
+    height: 10vh;
+  }
+
+  .md\:h-\[13vh\] {
+    height: 13vh;
+  }
+
+  .md\:h-\[11vh\] {
+    height: 11vh;
+  }
+
+  .md\:h-\[14vh\] {
+    height: 14vh;
+  }
+
+  .md\:h-\[12vh\] {
+    height: 12vh;
+  }
+
+  .md\:h-\[13\.4vh\] {
+    height: 13.4vh;
+  }
+
+  .md\:h-\[13\.2vh\] {
+    height: 13.2vh;
+  }
+
+  .md\:h-\[13\.6vh\] {
+    height: 13.6vh;
+  }
+
+  .md\:h-\[13\.7vh\] {
+    height: 13.7vh;
+  }
+
+  .md\:h-\[13\.8vh\] {
+    height: 13.8vh;
+  }
+
+  .md\:max-h-\[14vh\] {
+    max-height: 14vh;
+  }
+
+  .md\:max-h-\[10vh\] {
+    max-height: 10vh;
+  }
+
+  .md\:max-h-\[14svh\] {
+    max-height: 14svh;
+  }
+
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .md\:pt-0 {
